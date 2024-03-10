@@ -33,6 +33,7 @@ body {
   justify-content: center;
 }
 .container {
+    max-width: 100%;
   display: flex;
   gap: 1.7rem;
 }
