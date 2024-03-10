@@ -44,12 +44,25 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.actions img {
-  padding: 8px;
-  background: var(--Very-Dark-Blue);
+.actions{
+  display: flex;
+  gap: 0.85rem;
 }
+ .img{
+height: 42px;
+width: 42px;
+background: var(--Very-Dark-Blue);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+  }
+  .img img:hover{
+    cursor: pointer;
+  }
+
 .used-storage {
   background: var(--Dark-Blue);
   color: var(--Pale-Blue);
@@ -69,7 +82,6 @@ body {
   width: 150px;
   border-radius: 8px;
   padding: 10px;
-
   gap: 8px;
   position: absolute;
   top: -35px;
@@ -87,6 +99,16 @@ body {
   color: var(--Very-Dark-Blue);
   font-size: 2rem;
   font-weight: 700;
+}
+.remaining-storage::after{
+  content: "";
+position: absolute;
+bottom: -20px;
+right: 0;
+border-right: 20px solid #fff;
+  border-top: 20px solid #fff;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid transparent;
 }
 .storage-capacity-used {
   background: var(--Very-Dark-Blue);
