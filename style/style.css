@@ -124,7 +124,6 @@ border-right: 20px solid #fff;
 }
 .storage-progress {
   background: var(--Gradient);
-  /* width: 81.5%; */
   height: 15px;
   border-radius: 10px;
   margin-left: 3px;
