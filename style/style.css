@@ -124,11 +124,12 @@ border-right: 20px solid #fff;
 }
 .storage-progress {
   background: var(--Gradient);
-  width: 81.5%;
+  /* width: 81.5%; */
   height: 15px;
   border-radius: 10px;
   margin-left: 3px;
   position: relative;
+  animation: progress_bar_load 1.5s ease-in-out forwards 0.5s ;
 }
 .storage-progress::after {
   content: "";
@@ -139,6 +140,8 @@ border-right: 20px solid #fff;
   position: absolute;
   top: 1.5px;
   right: 2px;
+visibility: hidden;
+  animation: button 0.9s ease-in-out forwards 1s ;
 }
 .capacity {
   display: flex;
@@ -147,5 +150,64 @@ border-right: 20px solid #fff;
 .capacity p{
     font-weight: 600;
 }
+@keyframes progress_bar_load {
+  0%{
+    width: 0;
+  }
+  25%{
+    width: 25%;
+  }
+  50%{
+    width: 50%;
+
+  }
+  100%{ 
+    width: 81.5%;
+  }
+}
+@keyframes button{
+  0%{
+    visibility: hidden;
+ }
+25%{
+   visibility: hidden;
+}
+50%{
+  visibility: visible;
+  right: 50px;
+}
+70%{
+  right: 10px;
+}
+90%{
+  right: 25px;
+}
+95%{
+  right: 10px;
+}
+  100%{
+    visibility: visible;
+  }
+}
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
+
+/* Responsive */
+@media screen and (max-width:768px) {
+  body{
+    background-image: url(/images/background-images/bg-mobile.png);
+background-size: cover;
+background-position: 0 0;
+    }
+    .container{
+      max-width: 90%;
+    }
+}
+@media screen and (max-width:768px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+}
+
