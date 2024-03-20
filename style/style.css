@@ -217,6 +217,11 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
   }
   .container {
     max-width: 90%;
