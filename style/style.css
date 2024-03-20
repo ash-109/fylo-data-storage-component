@@ -48,7 +48,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 1.7rem;
+}
+.logo{
+  width: 110px;
 }
 .actions {
   display: flex;
@@ -57,6 +60,7 @@ body {
 .img {
   height: 42px;
   width: 42px;
+  padding: 20px;
   background: var(--Very-Dark-Blue);
   display: flex;
   align-items: center;
