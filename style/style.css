@@ -22,7 +22,7 @@
 }
 body {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: var(--Very-Dark-Blue)
     url(https://ash-109.github.io/fylo-data-storage-component/images/background-images/bg-desktop.png)
     no-repeat;
@@ -227,5 +227,8 @@ body {
 
   .used-storage {
     max-width: 100%;
+  }
+  .attribution{
+    position: relative;
   }
 }
