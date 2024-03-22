@@ -278,4 +278,7 @@ body {
 .remaining-storage::after{
   display: none;
 }
+.attribution{
+  bottom: -15px;
+}
 }
