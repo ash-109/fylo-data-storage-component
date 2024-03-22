@@ -43,7 +43,7 @@ body {
 }
 .fylo {
   background: var(--Dark-Blue);
-  width: 300px;
+  width: 330px;
   padding: 2rem ;
   border-radius: 10px 70px 10px 10px;
   display: flex;
@@ -55,16 +55,16 @@ body {
 
 }
 .logo{
-  width: 120px;
+  width: 135px;
 }
 .actions {
   display: flex;
   gap: 0.85rem;
 }
 .img {
-  height: 42px;
-  width: 42px;
-  padding: 20px;
+  height: 54px;
+  width: 54px;
+  padding: 10px;
   background: var(--Very-Dark-Blue);
   display: flex;
   align-items: center;
@@ -266,6 +266,9 @@ body {
 
   gap: 1.5rem;
   align-items: flex-start;
+}
+.fylo{
+  width: 100%;
 }
 .remaining-storage{
   top: 100%;
