@@ -24,7 +24,7 @@ body {
   width: 100%;
   min-height: 100vh;
   background: var(--Very-Dark-Blue)
-    url(https://ash-109.github.io/fylo-data-storage-component/images/background-images/bg-desktop.png)
+    url(../images/background-images/bg-desktop.png)
     no-repeat;
   background-position: center bottom;
   background-size: 100% 50%;
@@ -217,7 +217,7 @@ body {
 @media screen and (max-width: 930px) {
   body {
     width: 100%;
-    background-image: url(. /images/background-images/bg-mobile.png);
+    background-image: url(../images/background-images/bg-mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
