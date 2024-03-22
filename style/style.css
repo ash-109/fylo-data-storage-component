@@ -37,21 +37,25 @@ body {
 .container {
   max-width: 100%;
   display: flex;
+  align-items: flex-end;
   max-width: 100%;
   gap: 1.7rem;
 }
 .fylo {
   background: var(--Dark-Blue);
   width: 300px;
-  padding: 2rem;
+  padding: 2rem ;
   border-radius: 10px 70px 10px 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   gap: 1.7rem;
+  height: 190px;
+
 }
-.logo {
-  width: 110px;
+.logo{
+  width: 120px;
 }
 .actions {
   display: flex;
@@ -77,6 +81,7 @@ body {
   color: var(--Pale-Blue);
   padding: 2.5rem 2rem;
   width: 550px;
+  height: 150px;
   border-radius: 10px;
   position: relative;
 }
