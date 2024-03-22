@@ -217,7 +217,7 @@ body {
 @media screen and (max-width: 930px) {
   body {
     width: 100%;
-    background-image: url(. /images/background-images/bg-mobile.png);
+    background-image: url(./images/background-images/bg-mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -239,4 +239,18 @@ body {
   .attribution {
     position: relative;
   }
+}
+
+@media screen and (max-width: 375px){
+.container{
+  gap: 1.5rem;
+}
+.remaining-storage{
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.remaining-storage::after{
+  display: none;
+}
 }
