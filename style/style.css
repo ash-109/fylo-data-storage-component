@@ -156,6 +156,30 @@ body {
 .capacity p {
   font-weight: 600;
 }
+
+.attribution {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  position: absolute;
+  color: wheat;
+  bottom: 1%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+/* ANIMATIONS */
+
+
 @keyframes progress_bar_load {
   0% {
     width: 0;
@@ -194,26 +218,12 @@ body {
     visibility: visible;
   }
 }
-.attribution {
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  text-align: center;
-  position: absolute;
-  color: wheat;
-  bottom: 1%;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-.attribution a:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
 
-/* Responsive */
+
+/* RESPONSIVE */
+
+
+
 @media screen and (max-width: 930px) {
   body {
     width: 100%;
@@ -240,6 +250,10 @@ body {
     position: relative;
   }
 }
+
+
+/* RESPONSIVE (MOBILE) */
+
 
 @media screen and (max-width: 375px){
 .container{
