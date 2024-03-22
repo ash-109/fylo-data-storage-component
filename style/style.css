@@ -245,6 +245,7 @@ body {
     max-width: 90%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 3rem;
   }
 
@@ -262,7 +263,9 @@ body {
 
 @media screen and (max-width: 375px){
 .container{
+
   gap: 1.5rem;
+  align-items: flex-start;
 }
 .remaining-storage{
   top: 100%;
