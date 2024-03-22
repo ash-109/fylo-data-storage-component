@@ -51,7 +51,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 1.7rem;
-  height: 190px;
+  height: 200px;
 
 }
 .logo{
@@ -81,7 +81,7 @@ body {
   color: var(--Pale-Blue);
   padding: 2.5rem 2rem;
   width: 550px;
-  height: 150px;
+  height: 165px;
   border-radius: 10px;
   position: relative;
 }
